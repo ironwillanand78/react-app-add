@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.ip1{
+    font-family: "roboto";
+    font-size: 20px;
+    text-align: center;
+}
+
+.ip2{
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: center;
+}
+
+.ipContainer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: .5vw 1.5vw;
+    border-radius: 10px;
+    background: #411557;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.listItem{
+    display: flex;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add{
+    padding: .5vw 1vw;
+    background: red;
+    border: none;
+}
+
+.sub{
+    padding: .5vw 1vw;
+    background: green;
+    border: none;
+}
+
+.listItem img{
+    height: 80%;
+}
